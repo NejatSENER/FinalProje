@@ -1,0 +1,142 @@
+/*--------------- Hakkımızda Sayfası ------------- */
+
+#aboutSlider {
+  height: 300px;
+  background: url(../images/aboutIMG/slider1.jpg) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+#aboutCaption {
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+}
+
+#aboutCaption h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.aboutTop {
+  text-align: center;
+}
+
+.aboutTop .sectionHeader {
+  background: none;
+  border: none;
+  color: #500d16;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.aboutBody {
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #500d16;
+}
+
+.contactTop {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactTop p {
+  font-size: 16px;
+}
+
+#contact {
+  padding-bottom: 10px;
+}
+
+#contact .containerFluid {
+  height: 500px;
+  background: url(../images/aboutIMG/slider2.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.contactCaption {
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 500px;
+}
+
+.contactInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.contactInfo div {
+  padding: 0;
+}
+
+.contactInfo p {
+  font-size: 16px;
+}
+
+.contactInfo .bi {
+  font-size: 50px;
+  color: #95a5a6;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+.emailInfo,
+.locationInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  text-align: center;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  border: none;
+  margin: 10px 0;
+  width: 80%;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 15px;
+  margin: 20px auto;
+  background: #500d16;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 40%;
+  align-items: center;
+  border-radius: 10px;
+}
